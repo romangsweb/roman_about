@@ -21,8 +21,8 @@ export default function LeadCaptureModal({ isOpen, onClose, onSuccess }: LeadCap
         setError("");
 
         try {
-            // Call our new Next.js Server Route instead of an external webhook
-            const response = await fetch('/api/send-cv', {
+            // Call our new Next.js Server Route instead of an external webhook, respecting basePath
+            const response = await fetch('/about_roman/api/send-cv', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",

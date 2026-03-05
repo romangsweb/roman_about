@@ -108,7 +108,7 @@ export default function AboutScene() {
                         }}>
                             {/* eslint-disable-next-line @next/next/no-img-element */}
                             <img
-                                src="/roman-profile.jpg"
+                                src="/about_roman/roman-profile.jpg"
                                 alt="Román García"
                                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
                                 onError={(e) => {

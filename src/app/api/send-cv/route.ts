@@ -23,7 +23,7 @@ export async function POST(request: Request) {
           <p>Gracias por tu interés en mi perfil profesional.</p>
           <p>Como lo solicitaste, puedes descargar o ver la versión completa estructurada de mi experiencia haciendo clic en el siguiente enlace:</p>
           <p style="margin: 30px 0;">
-             <a href="https://tu-sitio.com/roman_garcia_cv.pdf" style="background-color: #10b981; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">
+             <a href="https://buildations.com/about_roman/roman_garcia_cv.pdf" style="background-color: #10b981; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold;">
                 Ver Perfil Completo
              </a>
           </p>
